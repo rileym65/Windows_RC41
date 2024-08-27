@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mikes\\Projects\\Rc41\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\cpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\exec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\exec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|D:\\Mikes\\Projects\\Rc41\\rc41\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\execute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\execute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|d:\\mikes\\projects\\rc41\\rc41\\synthdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\synthdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|D:\\Mikes\\Projects\\Rc41\\rc41\\synthdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{761331C3-D88F-4E84-A3F8-87317D78CC5C}|Rc41\\Rc41.csproj|solutionrelative:rc41\\synthdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 61,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 339,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Key.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Key.cs",
+              "RelativeDocumentMoniker": "Rc41\\Key.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Key.cs",
+              "RelativeToolTip": "Rc41\\Key.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:55:26.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SynthDialog.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\SynthDialog.cs",
+              "RelativeDocumentMoniker": "Rc41\\SynthDialog.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\SynthDialog.cs",
+              "RelativeToolTip": "Rc41\\SynthDialog.cs",
+              "ViewState": "AQIAAFABAAAAAAAAAAAUwGsBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T18:45:16.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Display.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Display.cs",
+              "RelativeDocumentMoniker": "Rc41\\Display.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Display.cs",
+              "RelativeToolTip": "Rc41\\Display.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAgwF0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:06:35.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SynthDialog.cs [Design]",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\SynthDialog.cs",
+              "RelativeDocumentMoniker": "Rc41\\SynthDialog.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\SynthDialog.cs [Design]",
+              "RelativeToolTip": "Rc41\\SynthDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T18:37:49.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Printer.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Printer.cs",
+              "RelativeDocumentMoniker": "Rc41\\Printer.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Printer.cs",
+              "RelativeToolTip": "Rc41\\Printer.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwFMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:47:56.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToDo.txt",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\ToDo.txt",
+              "RelativeDocumentMoniker": "Rc41\\ToDo.txt",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\ToDo.txt",
+              "RelativeToolTip": "Rc41\\ToDo.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-21T20:21:51.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cpu.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Cpu.cs",
+              "RelativeDocumentMoniker": "Rc41\\Cpu.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Cpu.cs",
+              "RelativeToolTip": "Rc41\\Cpu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsEAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T17:25:01.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exec.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Exec.cs",
+              "RelativeDocumentMoniker": "Rc41\\Exec.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Exec.cs",
+              "RelativeToolTip": "Rc41\\Exec.cs",
+              "ViewState": "AQIAAH8JAAAAAAAAAAAiwJgJAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:59:34.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ui.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Ui.cs",
+              "RelativeDocumentMoniker": "Rc41\\Ui.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Ui.cs",
+              "RelativeToolTip": "Rc41\\Ui.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:43:26.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Form1.cs",
+              "RelativeDocumentMoniker": "Rc41\\Form1.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Form1.cs",
+              "RelativeToolTip": "Rc41\\Form1.cs",
+              "ViewState": "AQIAAEEBAAAAAAAAAAA6wE4BAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:32:57.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Form1.cs",
+              "RelativeDocumentMoniker": "Rc41\\Form1.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Form1.cs [Design]",
+              "RelativeToolTip": "Rc41\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:58:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Execute.cs",
+              "DocumentMoniker": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Execute.cs",
+              "RelativeDocumentMoniker": "Rc41\\Execute.cs",
+              "ToolTip": "D:\\Mikes\\Projects\\Rc41\\Rc41\\Execute.cs",
+              "RelativeToolTip": "Rc41\\Execute.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwJkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:03:56.642Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
