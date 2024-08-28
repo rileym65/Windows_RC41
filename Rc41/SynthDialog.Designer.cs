@@ -132,6 +132,9 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            QLoaderShift = new CheckBox();
+            QLoaderKey = new ComboBox();
+            cb_QLoader = new CheckBox();
             SuspendLayout();
             // 
             // cb_ByteJumper
@@ -1174,11 +1177,45 @@
             label9.TabIndex = 101;
             label9.Text = "Shift";
             // 
+            // QLoaderShift
+            // 
+            QLoaderShift.AutoSize = true;
+            QLoaderShift.Location = new Point(327, 43);
+            QLoaderShift.Name = "QLoaderShift";
+            QLoaderShift.Size = new Size(15, 14);
+            QLoaderShift.TabIndex = 106;
+            QLoaderShift.UseVisualStyleBackColor = true;
+            // 
+            // QLoaderKey
+            // 
+            QLoaderKey.DropDownStyle = ComboBoxStyle.DropDownList;
+            QLoaderKey.FormattingEnabled = true;
+            QLoaderKey.Items.AddRange(new object[] { "E+", "1/X", "SQRT", "LOG", "LN", "X<>Y", "RDN", "SIN", "COS", "TAN", "XEQ", "STO", "RCL", "SST", "ENTER", "CHS", "EEX", "<--", "-", "7", "8", "9", "+", "4", "5", "6", "*", "1", "2", "3", "/", "0", ".", "RS" });
+            QLoaderKey.Location = new Point(353, 39);
+            QLoaderKey.Name = "QLoaderKey";
+            QLoaderKey.Size = new Size(64, 23);
+            QLoaderKey.TabIndex = 105;
+            // 
+            // cb_QLoader
+            // 
+            cb_QLoader.AutoSize = true;
+            cb_QLoader.Checked = true;
+            cb_QLoader.CheckState = CheckState.Checked;
+            cb_QLoader.Location = new Point(230, 41);
+            cb_QLoader.Name = "cb_QLoader";
+            cb_QLoader.Size = new Size(74, 19);
+            cb_QLoader.TabIndex = 104;
+            cb_QLoader.Text = "Q Loader";
+            cb_QLoader.UseVisualStyleBackColor = true;
+            // 
             // SynthDialog
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(642, 420);
+            Controls.Add(QLoaderShift);
+            Controls.Add(QLoaderKey);
+            Controls.Add(cb_QLoader);
             Controls.Add(label7);
             Controls.Add(label8);
             Controls.Add(label9);
@@ -1395,5 +1432,8 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private CheckBox QLoaderShift;
+        private ComboBox QLoaderKey;
+        private CheckBox cb_QLoader;
     }
 }

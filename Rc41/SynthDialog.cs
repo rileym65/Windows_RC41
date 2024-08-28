@@ -92,6 +92,8 @@ namespace Rc41
         {
             InitializeComponent();
             ByteJumperKey.SelectedIndex = 0;
+            QLoaderKey.SelectedIndex = 0;
+            QLoaderShift.Checked = true;
             RclDKey.SelectedIndex = 4;
             StoDKey.SelectedIndex = 4;
             StoDShift.Checked = true;
@@ -154,6 +156,13 @@ namespace Rc41
             if (!cb_ByteJumper.Checked) return 0;
             if (ByteJumperShift.Checked) return skeys[ByteJumperKey.SelectedIndex];
             return keys[ByteJumperKey.SelectedIndex];
+        }
+
+        public byte QLoader()
+        {
+            if (!cb_QLoader.Checked) return 0;
+            if (QLoaderShift.Checked) return skeys[QLoaderKey.SelectedIndex];
+            return keys[QLoaderKey.SelectedIndex];
         }
 
         public byte RclD()

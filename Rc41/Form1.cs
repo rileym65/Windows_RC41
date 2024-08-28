@@ -319,6 +319,7 @@ namespace Rc41
             }
             return ret;
         }
+
         private void RegsButton_Click(object sender, EventArgs e)
         {
             debugger.ShowRegs(FromHex(RegsFrom.Text), FromHex(RegsTo.Text));
@@ -357,6 +358,7 @@ namespace Rc41
             if (result == DialogResult.OK)
             {
                 if (dialog.ByteJumper() != 0) cpu.AssignKey(0xf1, 0x41, dialog.ByteJumper());    // Byte Jumper
+                if (dialog.QLoader() != 0) cpu.AssignKey(0x04, 0x19, dialog.QLoader());          // Q Loader
                 if (dialog.RclB() != 0) cpu.AssignKey(0x90, 0x7c, dialog.RclB());                // RCL b
                 if (dialog.RclC() != 0) cpu.AssignKey(0x90, 0x7d, dialog.RclC());                // RCL c
                 if (dialog.RclD() != 0) cpu.AssignKey(0x90, 0x7e, dialog.RclD());                // RCL d
@@ -591,6 +593,11 @@ namespace Rc41
                             case 0x0f: ret = "ASN"; break;
                             default: ret = ""; break;
                         }
+                        return ret;
+                    }
+                    if (b2 <= 0x1c)
+                    {
+                        ret = "QLoad";
                         return ret;
                     }
                     ret = cpu.reverse[b2].name;

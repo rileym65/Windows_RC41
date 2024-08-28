@@ -399,6 +399,8 @@ namespace Rc41
                     mode = M_NARG;
                     cpu.ram[Cpu.REG_R + 2] &= 0xf0;
                     cpu.ram[Cpu.REG_R + 1] = 0xff;
+                    cpu.ram[Cpu.REG_E + 1] &= 0x0f;
+                    cpu.ram[Cpu.REG_E + 2] &= 0xf0;
                     window.Display(Display());
                 }
                 if (key == K_ARCL)                   // ARCL
@@ -407,6 +409,8 @@ namespace Rc41
                     mode = M_NARG;
                     cpu.ram[Cpu.REG_R + 2] &= 0xf0;
                     cpu.ram[Cpu.REG_R + 1] = 0xff;
+                    cpu.ram[Cpu.REG_E + 1] &= 0x0f;
+                    cpu.ram[Cpu.REG_E + 2] &= 0xf0;
                     window.Display(Display());
                 }
                 if (key == K_BS)                     // BS
@@ -433,6 +437,14 @@ namespace Rc41
                 }
                 if (key == K_CLA)                  // CLA
                 {
+                    if (cpu.FlagSet(Cpu.F_PRGM))
+                    {
+                        cpu.ram[Cpu.REG_R + 1] = 0x87;
+                        cpu.ram[Cpu.REG_R + 0] = 0x00;
+                        cpu.Execute();
+                        window.Display(cpu.Display());
+                        return;
+                    }
                     cpu.ClearFlag(Cpu.F_ALPHA_IN);
                     for (i = Cpu.REG_M; i < Cpu.REG_P + 3; i++) cpu.ram[i] = 0x00;
                     window.Display(Display());
@@ -458,7 +470,18 @@ namespace Rc41
                         }
                         return;
                     }
-
+                    cpu.ram[Cpu.REG_R + 1] = 0x84;
+                    cpu.ram[Cpu.REG_R + 0] = 0x00;
+                    cpu.Execute();
+                    window.Display(cpu.Display());
+                    return;
+                }
+                if (key == K_AVIEW) {
+                    cpu.ram[Cpu.REG_R + 1] = 0x7e;
+                    cpu.ram[Cpu.REG_R + 0] = 0x00;
+                    cpu.Execute();
+                    window.Display(cpu.Display());
+                    return;
                 }
             }
 
